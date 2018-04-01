@@ -8,5 +8,25 @@
 	},
 	"appid": "wxfe5e47dac4f2d137",
 	"projectname": "%E7%A4%BE%E6%8B%9B%E5%8A%A9%E6%89%8B",
-	"condition": {}
+	"condition": {
+		"search": {
+			"current": -1,
+			"list": []
+		},
+		"conversation": {
+			"current": -1,
+			"list": []
+		},
+		"plugin": {
+			"current": -1,
+			"list": []
+		},
+		"game": {
+			"list": []
+		},
+		"miniprogram": {
+			"current": -1,
+			"list": []
+		}
+	}
 }
