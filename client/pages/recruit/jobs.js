@@ -6,6 +6,7 @@ var util = require('../../utils/util.js')
 Page({
     data: {
         requestResult: '',
+        array:[],
         canIUseClipboard: wx.canIUse('setClipboardData')
     },
 
@@ -18,7 +19,8 @@ Page({
             success (result) {
                 util.showSuccess('请求成功完成')
                 that.setData({
-                    requestResult: JSON.stringify(result.data)
+                    requestResult: JSON.stringify(result.data),
+                    array: result.data.data
                 })
             },
             fail (error) {
